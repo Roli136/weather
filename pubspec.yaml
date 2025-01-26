@@ -1,0 +1,38 @@
+name: my_flutter_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP csomag hozzáadása az API hívásokhoz
+  http: ^1.3.0
+
+  # A Cupertino Icons betűtípus hozzáadása
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Ajánlott lint szabályok a jobb kódminőség érdekében
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/001-windy.png
+  - assets/images/002-storm.png
+  - assets/images/003-strom.png
+  - assets/images/004-clouds.png
+  - assets/images/005-snow.png
+  - assets/images/006-heavy-rain.png
+  - assets/images/007-sun.png
+  - assets/images/008-celsius.png
+  - assets/images/searching-bar.png
+  - assets/images/new-background.jpg
